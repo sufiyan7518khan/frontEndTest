@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 200px;   
+        height: 200px;
+        background-color: red;
+    }
+</style>
+<body>
+
+    <script>
+       var myId; 
+            a = 0;
+        function f1()
+        {
+
+           myId =  setInterval(Anim,1000)
+
+            function Anim()
+         {
+                     a = a + 10;
+                     if (a==100) {
+                        clearInterval(myId);
+                     }
+                var target = document.getElementById("result");
+                target.style.marginLeft = a + "px";
+
+            }
+        }
+
+
+    </script>
+    
+    <button onclick="f1()">set interval</button>
+    <div id="result">  </div>
+</body>
+</html>

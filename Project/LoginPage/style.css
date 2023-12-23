@@ -1,0 +1,51 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+
+    width: 800px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 100px auto;
+}
+
+#box1{
+
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: #B53471;
+}
+
+#box1 h2{
+
+    text-align: center;
+    margin-top: 35px;
+}
+.username{
+
+    margin: 70px auto;
+}
+
+
+#box2{
+
+    width: 400px;
+    height: 400px;
+    float: right;
+   background-color: #dfe6e9;
+}
+
+#img1{
+ 
+    width: 80%;
+    height: 80%;
+    padding: 40px;
+    
+     
+
+}
+

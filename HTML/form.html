@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+
+      <!--  HTML FORMS -->
+
+      <!-- Forms are used to collect the data from the enduser.
+
+           It will pass the data to database or server for processing.
+
+           A <form> tag is used to represent a form in html.
+
+A html form contains various form components.
+ex:
+	label
+	textfield
+	textarea
+	radio button
+	checkbox 
+	select box 
+	and etc. -->
+
+    <!-- EX = 1 -->
+
+    <form name="myForm" action="list.html">
+        <label>Name:</label>
+        <input type="text" name="t1"/> <br> 
+
+        <label>Age:</label>
+        <input type="number" placeholder="above 18" name="t2" required/> <br>
+
+        <label>Password:</label>
+        <input type="password" name="t3"/> <br> 
+
+        <label> Address: <label>
+        <textarea name="t4" rows="5" cols="10"></textarea> <br>
+    
+        <label>Gender:</label>
+        <input type="radio" name="t5" value="male"/>MALE
+        <input type="radio" name="t5" value="female"/>FEMALE <br>
+
+        <label>Maritial status:</label>
+        <input type="checkbox" name="t6" value="married"/>MARRIED
+        <input type="checkbox" name="t6" value="single"/>SINGLE	<br>
+
+        <label>Country</label>
+        <select name="t7">
+            <option>none</option>
+            <option>India</option>
+            <option>America</option>
+            <option>Australia</option>
+            <option>Canada</option>
+        </select>	
+        <br>
+        <input type="reset" value="reset"/>
+        <input type="submit" value="submit"/>
+    </form>
+
+
+
+
+
+    
+</body>
+</html>

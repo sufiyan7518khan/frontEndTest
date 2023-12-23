@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Courses Completed</h1>
+<button onclick="f1()">All</button>
+
+<br><br>
+                 <input type="checkbox" name="c1" value="html">HTML <br>
+                 <input type="checkbox" name="c1" value="css">CSS <br>
+                 <input type="checkbox" name="c1" value="js">JavaScript 
+<br>
+
+             <input type="checkbox" name="c1" 
+             value="bootstrap">Bootstrap <br>
+
+
+<script>
+
+function f1()
+{
+            var x=document.getElementsByName('c1');
+                     for(var i=0;i<x.length;i++)
+                        {
+                           if(x[i].type="checkbox")
+                                {
+                                   x[i].checked=true;
+                               }
+                       }
+}
+</script>
+    
+</body>
+</html>

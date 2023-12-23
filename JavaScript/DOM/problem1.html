@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table align="center">
+
+        <tr>
+              <td>No1:</td>
+              <td><input type="text" id="t1"/></td>
+        </tr>
+         <tr>
+               <td>No2:</td>
+               <td><input type="text" id="t2"/></td>
+        </tr>
+         <tr>
+                   <td>&nbsp;</td>
+                  <td><button onclick="f1()">ADD</button></td>
+                  
+         </tr>
+         
+        <tr>
+            <td>Result</td>
+            <td><span id="result"></span></td>
+      </tr>
+    </table>
+
+
+
+        <script>
+
+        function f1()
+        {
+                       var val1=document.getElementById('t1').value;
+                       var val2=document.getElementById('t2').value;
+                       var c=parseFloat(val1)+parseFloat(val2);
+                       document.getElementById('result').innerHTML=c;
+        }
+        </script>
+
+    
+</body>
+</html>

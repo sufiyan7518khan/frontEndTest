@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!--    1.  OPEN
+             2.  CLOSE
+            3.   MOVETO         -->
+
+
+    <script>
+
+        var myId;
+
+        function f1()
+        {               // for new window _blank (default)
+                        // we  can also adjust the width and height of new window 
+                  myId =  window.open("https://www.facebook.com/","_blank","width=200px, height=200px");
+
+                     // for same page open
+
+                    //  window.open("https://www.facebook.com/","_parent");
+        }
+
+         function f2()
+    {
+        myId.close();
+    }
+
+       function f3()
+       {
+              // only own page can move 
+              // can not be move any pre-define page
+         myId.moveTo(10,10)
+
+       }
+
+    </script>
+
+    <button onclick="f1()">
+        open new window
+    </button>
+
+    <button onclick="f2()">
+        close the window
+    </button>
+
+    <button onclick="f3()">
+        move the window
+    </button>
+    
+</body>
+</html>

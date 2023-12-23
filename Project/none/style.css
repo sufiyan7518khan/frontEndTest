@@ -1,0 +1,95 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.container
+{
+	width:800px;
+	height: 400px;
+	box-sizing: border-box;
+	margin: 100px auto;
+	box-shadow: 2px 2px 12px 6px #c3c3c3;
+}
+.container .box1
+{
+	width: 400px;
+	height: 400px;
+	box-sizing: border-box;
+	background-color:  #B53471;
+	float:left;
+}
+.container .box1 h1
+{
+	text-align: center;
+	padding:20px;
+	color:#FFF;
+	font-family: monospace;
+	font-size:30px;
+	font-style: italic;
+	transition:all 2s linear;
+}
+.container .box1 h1:hover
+{
+	letter-spacing: 20px;
+	text-decoration: underline;
+}
+
+
+.container .box1  form
+{
+	margin: 30px 70px;
+}
+.container .box1  form  input[type="text"],input[type="password"]
+{
+	width:250px;
+	height: 37px;
+	margin:20px 0;
+	border-radius: 15px;
+	border:none;
+}
+.container .box1  form  input[type="submit"]
+{
+	width:100px;
+	padding:8px;
+	margin: 15px 70px;
+	color: #B53471;
+	font-size:16px;
+	font-weight: bold;
+	transition: all 1s linear;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px 2px ;
+}
+.container .box1  form  input[type="submit"]:hover
+{
+	border:2px solid #FFF;
+	background-color:#B53471; 
+	color:#FFF; 
+	padding:8px;
+}
+
+.container .box1  form input[placeholder]
+{
+	text-align: center;
+	font-size:18px;
+}
+
+.forget{
+	margin-left: 140px ;
+}
+
+.container .box2
+{
+	width: 400px;
+	height: 400px;
+	box-sizing: border-box;
+	background-color: #dfe6e9;
+	float:right;
+}
+.container .box2 img
+{
+	width: 90%;
+	height: 90%;
+	padding: 20px;
+	opacity: 1;
+}

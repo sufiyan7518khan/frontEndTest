@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            var myId;
+        function f1()
+        {
+            myId = setTimeout(Anim,5000)
+
+            function Anim(){
+                alert("hey What's happen");
+            }
+        }
+
+/*
+       SECOND METHOD TO WRITE
+        function f1()
+        {
+
+            setTimeout(function(){
+                alert("whats going on")
+            },5000)
+        }
+
+*/
+
+           function f2()
+            {
+                  clearTimeout(myId);
+            }
+           
+
+
+
+
+    </script>
+
+    <button onclick="f1()">
+        set the time
+    </button>
+
+    <button onclick="f2()">
+        clear the time
+    </button>
+    
+</body>
+</html>

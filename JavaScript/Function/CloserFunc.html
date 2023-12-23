@@ -1,0 +1,47 @@
+
+
+<!-- 
+
+
+A closure is the combination of a functions bundled together along lexical 
+scope.
+In JavaScript, closures are created every time when functions are created.
+
+In other words, a closure gives you ,access to an outer function's scope from 
+an inner function 
+
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var a = 10;
+
+        function f1()
+        {
+                 var b = 20;
+
+            function f2()
+            {
+                    document.write(a+"<br/> "+b)
+            }
+
+            f2();
+                
+        }
+        f1();
+        
+    </script>
+    
+</body>
+</html>

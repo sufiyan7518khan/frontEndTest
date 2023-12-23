@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    Name : <input type="text" id="t1"/> <br>
+        <button onclick="f1()">submit</button>
+
+
+<script >
+
+         function f1()
+         {
+                         var name=document.getElementById('t1').value;
+                        document.writeln("Welcome :"+name);
+          }
+
+</script>
+
+
+             <!-- GET OUTPUT IN SAME PAGE 
+ -->
+<!--
+
+            Name : <input type="text" id="t1"/> <br>
+            <button onclick="f1()">submit</button>
+<br><br>
+             <h1 id="result"></h1>
+
+<script>
+function f1()
+{
+                var name=document.getElementById('t1').value;
+                document.getElementById('result').innerHTML=name;
+}
+</script>
+
+
+                  -->
+
+
+</body>
+</html>
